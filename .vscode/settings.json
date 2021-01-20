@@ -1,0 +1,16 @@
+{
+    "python.pythonPath": "/usr/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "djangoDB",
+            "group": "djangoDB",
+            "database": "${workspaceFolder:incomeexpensesapi}/db.sqlite3"
+        }
+    ],
+    "python.formatting.provider": "autopep8"
+}
